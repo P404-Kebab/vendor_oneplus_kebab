@@ -50,24 +50,43 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/kebab/proprietary/vendor/etc/init/vendor.oneplus.hardware.display@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.oneplus.hardware.display@1.0-service.rc \
     vendor/oneplus/kebab/proprietary/vendor/etc/init/vendor.pixelworks.hardware.display.iris-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.pixelworks.hardware.display.iris-service.rc \
     vendor/oneplus/kebab/proprietary/vendor/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.pixelworks.hardware.feature.irisfeature-service.rc \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm1.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm.lst:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm.lst \
     vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm10.txt \
     vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm11.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm11.txt \
     vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm12.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm12.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm13.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm13.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm14.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm14.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm15.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm15.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm16.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm16.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm17.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm17.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm18.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm18.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm2.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm2.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm3.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm3.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm4.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm4.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm5.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm5.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm6.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm6.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm7.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm7.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm8.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm8.txt \
-    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm9.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm9.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm14_a.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm14_a.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm14_b.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm14_b.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm14_c.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm14_c.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm16_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm16_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm16_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm16_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm16_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm16_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm17_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm17_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm17_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm17_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm17_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm17_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm18_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm18_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm18_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm18_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm18_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm18_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm1_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm1_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm1_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm1_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm1_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm1_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm2_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm2_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm2_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm2_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm2_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm2_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm3_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm3_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm3_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm3_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm3_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm3_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm4_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm4_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm4_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm4_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm4_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm4_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm5_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm5_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm5_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm5_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm5_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm5_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm6_center.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm6_center.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm6_down.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm6_down.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm6_up.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm6_up.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm8_a.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm8_a.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm8_b.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm8_b.txt \
+    vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/inParm8_c.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/inParm8_c.txt \
     vendor/oneplus/kebab/proprietary/vendor/etc/inparm/irissoft/mcfCheck.txt:$(TARGET_COPY_OUT_VENDOR)/etc/inparm/irissoft/mcfCheck.txt \
     vendor/oneplus/kebab/proprietary/vendor/etc/irissoft.fw:$(TARGET_COPY_OUT_VENDOR)/etc/irissoft.fw \
     vendor/oneplus/kebab/proprietary/vendor/etc/sensors/config/bmi26x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/bmi26x_0.json \
